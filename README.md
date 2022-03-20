@@ -149,3 +149,9 @@ The function will
 - Print the data of the emails
 
 This app is for demonstration purpose only. The actual app can have a totally different approach and absolutely different use case.
+
+# Useful Links for references
+
+[imap](https://www.npmjs.com/package/imap)
+[nodemailer](https://nodemailer.com/about/)
+[html-to-text](https://www.npmjs.com/package/html-to-text)
