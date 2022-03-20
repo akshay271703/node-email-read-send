@@ -4,7 +4,7 @@ const transporter = nodemailer.createTransport(SEND_MAIL_CONFIG);
 
 module.exports.sendMail = async () => {
   try {
-    const time = new Date().toString();
+    const time = new Date().toDateString();
     let info = await transporter.sendMail({
       from: SEND_MAIL_CONFIG.auth.user,
       to: SEND_MAIL_CONFIG.auth.user,
